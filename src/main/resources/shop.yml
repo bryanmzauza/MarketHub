@@ -652,7 +652,7 @@ items:
   feather:
     material: FEATHER
     display-name: "Pena"
-    category: diversos
+    category: drops
     price-type: DYNAMIC
     base-price: 3.0
     virtual-stock: 6000
@@ -756,3 +756,889 @@ items:
     elasticity: 0.1
     price-min: 0.25
     price-max: 8.0
+
+  # ======================================================
+  #  ITENS ADICIONAIS
+  # ======================================================
+
+  # ---- Minérios & Minerais (extras) ----
+  amethyst_shard:
+    material: AMETHYST_SHARD
+    display-name: "Fragmento de Ametista"
+    category: minerios
+    price-type: DYNAMIC
+    base-price: 12.0
+    virtual-stock: 3000
+    target-stock: 3000
+    elasticity: 0.3
+    price-min: 3.0
+    price-max: 50.0
+
+  raw_iron:
+    material: RAW_IRON
+    display-name: "Ferro Bruto"
+    category: minerios
+    price-type: DYNAMIC
+    base-price: 10.0
+    virtual-stock: 4000
+    target-stock: 4000
+    elasticity: 0.3
+    price-min: 3.0
+    price-max: 40.0
+
+  raw_gold:
+    material: RAW_GOLD
+    display-name: "Ouro Bruto"
+    category: minerios
+    price-type: DYNAMIC
+    base-price: 20.0
+    virtual-stock: 2500
+    target-stock: 2500
+    elasticity: 0.35
+    price-min: 6.0
+    price-max: 80.0
+
+  raw_copper:
+    material: RAW_COPPER
+    display-name: "Cobre Bruto"
+    category: minerios
+    price-type: DYNAMIC
+    base-price: 5.0
+    virtual-stock: 5000
+    target-stock: 5000
+    elasticity: 0.2
+    price-min: 1.0
+    price-max: 20.0
+
+  coal_block:
+    material: COAL_BLOCK
+    display-name: "Bloco de Carvão"
+    category: minerios
+    price-type: DYNAMIC
+    base-price: 45.0
+    virtual-stock: 1500
+    target-stock: 1500
+    elasticity: 0.3
+    price-min: 10.0
+    price-max: 180.0
+
+  iron_block:
+    material: IRON_BLOCK
+    display-name: "Bloco de Ferro"
+    category: minerios
+    price-type: DYNAMIC
+    base-price: 135.0
+    virtual-stock: 800
+    target-stock: 800
+    elasticity: 0.35
+    price-min: 40.0
+    price-max: 500.0
+
+  gold_block:
+    material: GOLD_BLOCK
+    display-name: "Bloco de Ouro"
+    category: minerios
+    price-type: DYNAMIC
+    base-price: 270.0
+    virtual-stock: 500
+    target-stock: 500
+    elasticity: 0.4
+    price-min: 80.0
+    price-max: 1000.0
+
+  diamond_block:
+    material: DIAMOND_BLOCK
+    display-name: "Bloco de Diamante"
+    category: minerios
+    price-type: DYNAMIC
+    base-price: 1350.0
+    virtual-stock: 200
+    target-stock: 200
+    elasticity: 0.5
+    price-min: 400.0
+    price-max: 4500.0
+
+  emerald_block:
+    material: EMERALD_BLOCK
+    display-name: "Bloco de Esmeralda"
+    category: minerios
+    price-type: DYNAMIC
+    base-price: 900.0
+    virtual-stock: 300
+    target-stock: 300
+    elasticity: 0.45
+    price-min: 250.0
+    price-max: 3500.0
+
+  gold_nugget:
+    material: GOLD_NUGGET
+    display-name: "Pepita de Ouro"
+    category: minerios
+    price-type: DYNAMIC
+    base-price: 3.5
+    virtual-stock: 6000
+    target-stock: 6000
+    elasticity: 0.2
+    price-min: 1.0
+    price-max: 14.0
+
+  iron_nugget:
+    material: IRON_NUGGET
+    display-name: "Pepita de Ferro"
+    category: minerios
+    price-type: DYNAMIC
+    base-price: 1.5
+    virtual-stock: 8000
+    target-stock: 8000
+    elasticity: 0.15
+    price-min: 0.25
+    price-max: 7.0
+
+  # ---- Comida (extras) ----
+  apple:
+    material: APPLE
+    display-name: "Maçã"
+    category: comida
+    price-type: DYNAMIC
+    base-price: 4.0
+    virtual-stock: 6000
+    target-stock: 6000
+    elasticity: 0.2
+    price-min: 1.0
+    price-max: 15.0
+
+  golden_carrot:
+    material: GOLDEN_CARROT
+    display-name: "Cenoura Dourada"
+    category: comida
+    price-type: DYNAMIC
+    base-price: 45.0
+    virtual-stock: 1500
+    target-stock: 1500
+    elasticity: 0.4
+    price-min: 12.0
+    price-max: 180.0
+
+  baked_potato:
+    material: BAKED_POTATO
+    display-name: "Batata Assada"
+    category: comida
+    price-type: DYNAMIC
+    base-price: 4.0
+    virtual-stock: 6000
+    target-stock: 6000
+    elasticity: 0.2
+    price-min: 1.0
+    price-max: 16.0
+
+  cookie:
+    material: COOKIE
+    display-name: "Biscoito"
+    category: comida
+    price-type: DYNAMIC
+    base-price: 3.0
+    virtual-stock: 8000
+    target-stock: 8000
+    elasticity: 0.15
+    price-min: 0.50
+    price-max: 12.0
+
+  pumpkin_pie:
+    material: PUMPKIN_PIE
+    display-name: "Torta de Abóbora"
+    category: comida
+    price-type: DYNAMIC
+    base-price: 10.0
+    virtual-stock: 3000
+    target-stock: 3000
+    elasticity: 0.3
+    price-min: 3.0
+    price-max: 40.0
+
+  dried_kelp:
+    material: DRIED_KELP
+    display-name: "Kelp Seco"
+    category: comida
+    price-type: DYNAMIC
+    base-price: 2.0
+    virtual-stock: 10000
+    target-stock: 10000
+    elasticity: 0.1
+    price-min: 0.25
+    price-max: 8.0
+
+  glow_berries:
+    material: GLOW_BERRIES
+    display-name: "Frutas Brilhantes"
+    category: comida
+    price-type: DYNAMIC
+    base-price: 6.0
+    virtual-stock: 4000
+    target-stock: 4000
+    elasticity: 0.25
+    price-min: 1.5
+    price-max: 25.0
+
+  cooked_rabbit:
+    material: COOKED_RABBIT
+    display-name: "Coelho Assado"
+    category: comida
+    price-type: DYNAMIC
+    base-price: 7.0
+    virtual-stock: 4000
+    target-stock: 4000
+    elasticity: 0.25
+    price-min: 2.0
+    price-max: 28.0
+
+  melon:
+    material: MELON
+    display-name: "Melancia"
+    category: comida
+    price-type: DYNAMIC
+    base-price: 10.0
+    virtual-stock: 4000
+    target-stock: 4000
+    elasticity: 0.2
+    price-min: 2.0
+    price-max: 40.0
+
+  chorus_fruit:
+    material: CHORUS_FRUIT
+    display-name: "Fruta Chorus"
+    category: comida
+    price-type: DYNAMIC
+    base-price: 8.0
+    virtual-stock: 3000
+    target-stock: 3000
+    elasticity: 0.3
+    price-min: 2.0
+    price-max: 35.0
+
+  # ---- Madeira (extras) ----
+  crimson_stem:
+    material: CRIMSON_STEM
+    display-name: "Tronco Carmesim"
+    category: madeira
+    price-type: DYNAMIC
+    base-price: 5.0
+    virtual-stock: 6000
+    target-stock: 6000
+    elasticity: 0.25
+    price-min: 1.5
+    price-max: 20.0
+
+  warped_stem:
+    material: WARPED_STEM
+    display-name: "Tronco Distorcido"
+    category: madeira
+    price-type: DYNAMIC
+    base-price: 5.0
+    virtual-stock: 6000
+    target-stock: 6000
+    elasticity: 0.25
+    price-min: 1.5
+    price-max: 20.0
+
+  pale_oak_log:
+    material: PALE_OAK_LOG
+    display-name: "Tronco de Carvalho Pálido"
+    category: madeira
+    price-type: DYNAMIC
+    base-price: 5.0
+    virtual-stock: 6000
+    target-stock: 6000
+    elasticity: 0.25
+    price-min: 1.5
+    price-max: 20.0
+
+  stick:
+    material: STICK
+    display-name: "Graveto"
+    category: madeira
+    price-type: DYNAMIC
+    base-price: 0.5
+    virtual-stock: 20000
+    target-stock: 20000
+    elasticity: 0.1
+    price-min: 0.10
+    price-max: 3.0
+
+  charcoal:
+    material: CHARCOAL
+    display-name: "Carvão Vegetal"
+    category: madeira
+    price-type: DYNAMIC
+    base-price: 4.0
+    virtual-stock: 6000
+    target-stock: 6000
+    elasticity: 0.25
+    price-min: 1.0
+    price-max: 18.0
+
+  # ---- Drops de Mob (extras) ----
+  prismarine_shard:
+    material: PRISMARINE_SHARD
+    display-name: "Fragmento de Prismarinho"
+    category: drops
+    price-type: DYNAMIC
+    base-price: 12.0
+    virtual-stock: 3000
+    target-stock: 3000
+    elasticity: 0.3
+    price-min: 3.0
+    price-max: 50.0
+
+  prismarine_crystals:
+    material: PRISMARINE_CRYSTALS
+    display-name: "Cristais de Prismarinho"
+    category: drops
+    price-type: DYNAMIC
+    base-price: 15.0
+    virtual-stock: 2500
+    target-stock: 2500
+    elasticity: 0.3
+    price-min: 4.0
+    price-max: 60.0
+
+  rabbit_hide:
+    material: RABBIT_HIDE
+    display-name: "Pele de Coelho"
+    category: drops
+    price-type: DYNAMIC
+    base-price: 3.0
+    virtual-stock: 6000
+    target-stock: 6000
+    elasticity: 0.2
+    price-min: 0.50
+    price-max: 12.0
+
+  rabbit_foot:
+    material: RABBIT_FOOT
+    display-name: "Pé de Coelho"
+    category: drops
+    price-type: DYNAMIC
+    base-price: 30.0
+    virtual-stock: 1500
+    target-stock: 1500
+    elasticity: 0.4
+    price-min: 8.0
+    price-max: 120.0
+
+  nautilus_shell:
+    material: NAUTILUS_SHELL
+    display-name: "Concha de Nautilus"
+    category: drops
+    price-type: DYNAMIC
+    base-price: 80.0
+    virtual-stock: 500
+    target-stock: 500
+    elasticity: 0.5
+    price-min: 20.0
+    price-max: 300.0
+
+  shulker_shell:
+    material: SHULKER_SHELL
+    display-name: "Concha de Shulker"
+    category: drops
+    price-type: DYNAMIC
+    base-price: 200.0
+    virtual-stock: 300
+    target-stock: 300
+    elasticity: 0.55
+    price-min: 60.0
+    price-max: 800.0
+
+  arrow:
+    material: ARROW
+    display-name: "Flecha"
+    category: drops
+    price-type: DYNAMIC
+    base-price: 3.0
+    virtual-stock: 8000
+    target-stock: 8000
+    elasticity: 0.15
+    price-min: 0.50
+    price-max: 12.0
+
+  wither_skeleton_skull:
+    material: WITHER_SKELETON_SKULL
+    display-name: "Crânio de Wither Skeleton"
+    category: drops
+    price-type: DYNAMIC
+    base-price: 500.0
+    virtual-stock: 100
+    target-stock: 100
+    elasticity: 0.6
+    price-min: 150.0
+    price-max: 2500.0
+
+  breeze_rod:
+    material: BREEZE_ROD
+    display-name: "Bastão de Breeze"
+    category: drops
+    price-type: DYNAMIC
+    base-price: 60.0
+    virtual-stock: 800
+    target-stock: 800
+    elasticity: 0.45
+    price-min: 15.0
+    price-max: 250.0
+
+  honey_block:
+    material: HONEY_BLOCK
+    display-name: "Bloco de Mel"
+    category: drops
+    price-type: DYNAMIC
+    base-price: 48.0
+    virtual-stock: 1000
+    target-stock: 1000
+    elasticity: 0.35
+    price-min: 12.0
+    price-max: 180.0
+
+  experience_bottle:
+    material: EXPERIENCE_BOTTLE
+    display-name: "Frasco de XP"
+    category: drops
+    price-type: DYNAMIC
+    base-price: 25.0
+    virtual-stock: 2000
+    target-stock: 2000
+    elasticity: 0.4
+    price-min: 8.0
+    price-max: 100.0
+
+  # ---- Nether (extras) ----
+  soul_sand:
+    material: SOUL_SAND
+    display-name: "Areia das Almas"
+    category: nether
+    price-type: DYNAMIC
+    base-price: 5.0
+    virtual-stock: 6000
+    target-stock: 6000
+    elasticity: 0.2
+    price-min: 1.0
+    price-max: 20.0
+
+  soul_soil:
+    material: SOUL_SOIL
+    display-name: "Solo de Almas"
+    category: nether
+    price-type: DYNAMIC
+    base-price: 4.0
+    virtual-stock: 6000
+    target-stock: 6000
+    elasticity: 0.2
+    price-min: 1.0
+    price-max: 15.0
+
+  netherrack:
+    material: NETHERRACK
+    display-name: "Netherrack"
+    category: nether
+    price-type: DYNAMIC
+    base-price: 1.0
+    virtual-stock: 15000
+    target-stock: 15000
+    elasticity: 0.1
+    price-min: 0.10
+    price-max: 5.0
+
+  blackstone:
+    material: BLACKSTONE
+    display-name: "Pedra Negra"
+    category: nether
+    price-type: DYNAMIC
+    base-price: 3.0
+    virtual-stock: 8000
+    target-stock: 8000
+    elasticity: 0.15
+    price-min: 0.50
+    price-max: 12.0
+
+  basalt:
+    material: BASALT
+    display-name: "Basalto"
+    category: nether
+    price-type: DYNAMIC
+    base-price: 2.0
+    virtual-stock: 10000
+    target-stock: 10000
+    elasticity: 0.1
+    price-min: 0.25
+    price-max: 8.0
+
+  crimson_fungus:
+    material: CRIMSON_FUNGUS
+    display-name: "Fungo Carmesim"
+    category: nether
+    price-type: DYNAMIC
+    base-price: 6.0
+    virtual-stock: 4000
+    target-stock: 4000
+    elasticity: 0.25
+    price-min: 1.5
+    price-max: 25.0
+
+  warped_fungus:
+    material: WARPED_FUNGUS
+    display-name: "Fungo Distorcido"
+    category: nether
+    price-type: DYNAMIC
+    base-price: 6.0
+    virtual-stock: 4000
+    target-stock: 4000
+    elasticity: 0.25
+    price-min: 1.5
+    price-max: 25.0
+
+  shroomlight:
+    material: SHROOMLIGHT
+    display-name: "Shroomlight"
+    category: nether
+    price-type: DYNAMIC
+    base-price: 15.0
+    virtual-stock: 2000
+    target-stock: 2000
+    elasticity: 0.3
+    price-min: 4.0
+    price-max: 60.0
+
+  crying_obsidian:
+    material: CRYING_OBSIDIAN
+    display-name: "Obsidiana Chorona"
+    category: nether
+    price-type: DYNAMIC
+    base-price: 25.0
+    virtual-stock: 1500
+    target-stock: 1500
+    elasticity: 0.35
+    price-min: 8.0
+    price-max: 100.0
+
+  ancient_debris:
+    material: ANCIENT_DEBRIS
+    display-name: "Destroços Antigos"
+    category: nether
+    price-type: DYNAMIC
+    base-price: 500.0
+    virtual-stock: 200
+    target-stock: 200
+    elasticity: 0.6
+    price-min: 150.0
+    price-max: 2500.0
+
+  nether_brick:
+    material: NETHER_BRICK
+    display-name: "Tijolo do Nether"
+    category: nether
+    price-type: DYNAMIC
+    base-price: 3.0
+    virtual-stock: 6000
+    target-stock: 6000
+    elasticity: 0.2
+    price-min: 0.50
+    price-max: 12.0
+
+  quartz_block:
+    material: QUARTZ_BLOCK
+    display-name: "Bloco de Quartzo"
+    category: nether
+    price-type: DYNAMIC
+    base-price: 40.0
+    virtual-stock: 1500
+    target-stock: 1500
+    elasticity: 0.3
+    price-min: 10.0
+    price-max: 150.0
+
+  glowstone:
+    material: GLOWSTONE
+    display-name: "Glowstone"
+    category: nether
+    price-type: DYNAMIC
+    base-price: 40.0
+    virtual-stock: 1500
+    target-stock: 1500
+    elasticity: 0.3
+    price-min: 10.0
+    price-max: 150.0
+
+  # ---- Diversos (extras) ----
+  sand:
+    material: SAND
+    display-name: "Areia"
+    category: diversos
+    price-type: DYNAMIC
+    base-price: 2.0
+    virtual-stock: 10000
+    target-stock: 10000
+    elasticity: 0.15
+    price-min: 0.25
+    price-max: 10.0
+
+  red_sand:
+    material: RED_SAND
+    display-name: "Areia Vermelha"
+    category: diversos
+    price-type: DYNAMIC
+    base-price: 4.0
+    virtual-stock: 5000
+    target-stock: 5000
+    elasticity: 0.2
+    price-min: 1.0
+    price-max: 15.0
+
+  gravel:
+    material: GRAVEL
+    display-name: "Cascalho"
+    category: diversos
+    price-type: DYNAMIC
+    base-price: 1.5
+    virtual-stock: 10000
+    target-stock: 10000
+    elasticity: 0.1
+    price-min: 0.25
+    price-max: 8.0
+
+  cobblestone:
+    material: COBBLESTONE
+    display-name: "Pedregulho"
+    category: diversos
+    price-type: DYNAMIC
+    base-price: 0.5
+    virtual-stock: 30000
+    target-stock: 30000
+    elasticity: 0.05
+    price-min: 0.05
+    price-max: 3.0
+
+  stone:
+    material: STONE
+    display-name: "Pedra"
+    category: diversos
+    price-type: DYNAMIC
+    base-price: 1.0
+    virtual-stock: 20000
+    target-stock: 20000
+    elasticity: 0.1
+    price-min: 0.10
+    price-max: 5.0
+
+  deepslate:
+    material: DEEPSLATE
+    display-name: "Ardósia Profunda"
+    category: diversos
+    price-type: DYNAMIC
+    base-price: 1.5
+    virtual-stock: 15000
+    target-stock: 15000
+    elasticity: 0.1
+    price-min: 0.25
+    price-max: 7.0
+
+  obsidian:
+    material: OBSIDIAN
+    display-name: "Obsidiana"
+    category: diversos
+    price-type: DYNAMIC
+    base-price: 20.0
+    virtual-stock: 2000
+    target-stock: 2000
+    elasticity: 0.35
+    price-min: 6.0
+    price-max: 80.0
+
+  moss_block:
+    material: MOSS_BLOCK
+    display-name: "Bloco de Musgo"
+    category: diversos
+    price-type: DYNAMIC
+    base-price: 5.0
+    virtual-stock: 5000
+    target-stock: 5000
+    elasticity: 0.2
+    price-min: 1.0
+    price-max: 20.0
+
+  sponge:
+    material: SPONGE
+    display-name: "Esponja"
+    category: diversos
+    price-type: DYNAMIC
+    base-price: 120.0
+    virtual-stock: 300
+    target-stock: 300
+    elasticity: 0.5
+    price-min: 30.0
+    price-max: 500.0
+
+  sea_lantern:
+    material: SEA_LANTERN
+    display-name: "Lanterna do Mar"
+    category: diversos
+    price-type: DYNAMIC
+    base-price: 35.0
+    virtual-stock: 1500
+    target-stock: 1500
+    elasticity: 0.35
+    price-min: 10.0
+    price-max: 140.0
+
+  tnt:
+    material: TNT
+    display-name: "TNT"
+    category: diversos
+    price-type: DYNAMIC
+    base-price: 60.0
+    virtual-stock: 1000
+    target-stock: 1000
+    elasticity: 0.4
+    price-min: 15.0
+    price-max: 250.0
+
+  paper:
+    material: PAPER
+    display-name: "Papel"
+    category: diversos
+    price-type: DYNAMIC
+    base-price: 2.0
+    virtual-stock: 8000
+    target-stock: 8000
+    elasticity: 0.15
+    price-min: 0.25
+    price-max: 8.0
+
+  book:
+    material: BOOK
+    display-name: "Livro"
+    category: diversos
+    price-type: DYNAMIC
+    base-price: 8.0
+    virtual-stock: 4000
+    target-stock: 4000
+    elasticity: 0.25
+    price-min: 2.0
+    price-max: 30.0
+
+  name_tag:
+    material: NAME_TAG
+    display-name: "Etiqueta"
+    category: diversos
+    price-type: DYNAMIC
+    base-price: 75.0
+    virtual-stock: 500
+    target-stock: 500
+    elasticity: 0.45
+    price-min: 20.0
+    price-max: 300.0
+
+  saddle:
+    material: SADDLE
+    display-name: "Sela"
+    category: diversos
+    price-type: DYNAMIC
+    base-price: 80.0
+    virtual-stock: 400
+    target-stock: 400
+    elasticity: 0.45
+    price-min: 20.0
+    price-max: 320.0
+
+  lead:
+    material: LEAD
+    display-name: "Corda"
+    category: diversos
+    price-type: DYNAMIC
+    base-price: 15.0
+    virtual-stock: 2000
+    target-stock: 2000
+    elasticity: 0.3
+    price-min: 4.0
+    price-max: 60.0
+
+  nether_star:
+    material: NETHER_STAR
+    display-name: "Estrela do Nether"
+    category: diversos
+    price-type: DYNAMIC
+    base-price: 2000.0
+    virtual-stock: 50
+    target-stock: 50
+    elasticity: 0.6
+    price-min: 600.0
+    price-max: 10000.0
+
+  glass:
+    material: GLASS
+    display-name: "Vidro"
+    category: diversos
+    price-type: DYNAMIC
+    base-price: 2.0
+    virtual-stock: 10000
+    target-stock: 10000
+    elasticity: 0.1
+    price-min: 0.25
+    price-max: 8.0
+
+  packed_ice:
+    material: PACKED_ICE
+    display-name: "Gelo Compacto"
+    category: diversos
+    price-type: DYNAMIC
+    base-price: 8.0
+    virtual-stock: 4000
+    target-stock: 4000
+    elasticity: 0.25
+    price-min: 2.0
+    price-max: 30.0
+
+  blue_ice:
+    material: BLUE_ICE
+    display-name: "Gelo Azul"
+    category: diversos
+    price-type: DYNAMIC
+    base-price: 25.0
+    virtual-stock: 1500
+    target-stock: 1500
+    elasticity: 0.35
+    price-min: 8.0
+    price-max: 100.0
+
+  bone_meal:
+    material: BONE_MEAL
+    display-name: "Farinha de Osso"
+    category: diversos
+    price-type: DYNAMIC
+    base-price: 2.0
+    virtual-stock: 8000
+    target-stock: 8000
+    elasticity: 0.15
+    price-min: 0.25
+    price-max: 8.0
+
+  vine:
+    material: VINE
+    display-name: "Trepadeira"
+    category: diversos
+    price-type: DYNAMIC
+    base-price: 3.0
+    virtual-stock: 6000
+    target-stock: 6000
+    elasticity: 0.2
+    price-min: 0.50
+    price-max: 12.0
+
+  lily_pad:
+    material: LILY_PAD
+    display-name: "Vitória-Régia"
+    category: diversos
+    price-type: DYNAMIC
+    base-price: 4.0
+    virtual-stock: 5000
+    target-stock: 5000
+    elasticity: 0.2
+    price-min: 1.0
+    price-max: 15.0
