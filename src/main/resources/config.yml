@@ -1,0 +1,59 @@
+# ============================================
+# MarketHub — Configuração Principal
+# ============================================
+
+database:
+  # Tipo de banco de dados: sqlite (padrão) ou mysql
+  type: sqlite
+  # Configurações MySQL (quando type = mysql)
+  host: localhost
+  port: 3306
+  database: markethub
+  user: markethub_user
+  password: "changeme"
+  pool-size: 10
+  # Propriedades extras do HikariCP / MySQL
+  properties:
+    cachePrepStmts: true
+    prepStmtCacheSize: 250
+    prepStmtCacheSqlLimit: 2048
+    useServerPrepStmts: true
+
+economy:
+  currency-symbol: "$"
+  # Taxa quando o jogador compra do servidor (0%)
+  server-buy-tax: 0.0
+  # Taxa quando o servidor compra do jogador (10%)
+  server-sell-tax: 0.10
+
+dynamic-pricing:
+  # Intervalo em segundos para atualização de preço dinâmico
+  update-interval-seconds: 60
+  # Fator de decaimento do estoque virtual (tendência ao alvo)
+  decay-factor: 0.995
+
+notifications:
+  # Notificar quando uma venda é executada
+  on-sale: true
+  # Usar actionbar para notificações
+  actionbar: true
+  # Usar chat para notificações
+  chat: true
+
+ui:
+  # Itens por página na GUI
+  items-per-page: 45
+  # Pontos de dados no histórico de preços
+  history-points: 30
+
+bedrock:
+  # Usar Geyser Forms para jogadores Bedrock
+  use-geyser-forms: true
+
+npc:
+  # Habilitar NPC Mercador via Citizens
+  enabled: true
+  # Nome exibido do NPC
+  name: "§6Mercador"
+  # Skin do NPC
+  skin: "default_trader"

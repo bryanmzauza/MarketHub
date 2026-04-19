@@ -1,0 +1,34 @@
+name: MarketHub
+version: ${version}
+main: dev.brmz.markethub.MarketHubPlugin
+api-version: '1.21'
+description: ${description}
+authors:
+  - BRMZ
+
+depend:
+  - Vault
+
+softdepend:
+  - Citizens
+  - floodgate
+
+commands:
+  mh:
+    description: Abre o MarketHub
+    aliases:
+      - markethub
+    usage: /<command> [subcomando]
+
+permissions:
+  markethub.use:
+    description: Acesso básico ao MarketHub
+    default: true
+  markethub.admin:
+    description: Comandos administrativos do MarketHub
+    default: op
+    children:
+      markethub.admin.add: true
+      markethub.admin.setprice: true
+      markethub.admin.remove: true
+      markethub.admin.reload: true
